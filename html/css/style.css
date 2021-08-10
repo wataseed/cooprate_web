@@ -593,15 +593,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
-/* Services Section
+/* concepts Section
 --------------------------------*/
-#services {
-  background: #fff;
+#concepts {
+  background: #f7f7f7;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-#services .box {
+#concepts .box {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
@@ -611,7 +611,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fafafa;
 }
 
-#services .icon {
+#concepts .icon {
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
@@ -628,42 +628,42 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #2dc997;
 }
 
-#services .icon a {
+#concepts .icon a {
   display: inline-block;
 }
 
-#services .icon i {
+#concepts .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-#services .box:hover .icon {
+#concepts .box:hover .icon {
   background: #fff;
   border: 2px solid #2dc997;
 }
 
-#services .box:hover .icon i {
+#concepts .box:hover .icon i {
   color: #2dc997;
 }
 
-#services .box:hover .icon a {
+#concepts .box:hover .icon a {
   color: #2dc997;
 }
 
-#services .title {
+#concepts .title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 
-#services .title a {
+#concepts .title a {
   color: #111;
 }
 
-#services .description {
-  font-size: 14px;
-  line-height: 24px;
+#concepts .description {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* Call To Action Section
@@ -829,12 +829,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
+  margin-top: 20px;
 }
 
 #team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 #team .member .social {
